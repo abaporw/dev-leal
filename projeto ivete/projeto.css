@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(214, 213, 208);
+    border-bottom: 4px solid rgb(221, 169, 11);
+}
+
+/* background-color: rgb(241, 222, 250); */
+    /* border-bottom: 4px solid rgb(236, 61, 236); */
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:rgb(129, 8, 241);
+}
+.pai-main{
+    display: flex;
+    justify-content: center;
+}
+.zap{
+    width: 3%;
+    position: fixed;
+    top: 85%;
+    left: 95%;
+}
+main{
+    margin: 0 15px;
+    background-color: rgb(247, 243, 250);
+    width: 75vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.texto-sec{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+p{
+    margin: 0 40px;
+}
+
+h1{
+    font-family: cursive;
+    text-align: center;
+    font-size: 2rem;
+}
+p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.p-colecao{
+    font-size: 1rem;
+}
+.sec{
+    width: 28%;
+    height: 40%;
+    background-color: rgb(246, 237, 255);
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    border-bottom: 4px solid rgb(221, 169, 11);
+}
+img{
+    width: 50%;
+}
+
+.video-aside{
+    width: 25vw;
+    height: 100vh;
+}
+.vid1{
+    width: 100%;
+
+}
+
+footer{
+        width: 100vw;
+        height: 20vh;
+        background-color: rgb(214, 213, 208);
+}
+
